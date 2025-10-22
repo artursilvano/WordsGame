@@ -80,7 +80,6 @@ The system consists of the following main executables:
 - **arbitro**: The central referee process. It manages the game state, draws letters, validates words, manages scores, launches bots, and processes admin commands.
 - **jogoui**: Console interface for human players. Accepts player input and communicates with the referee.
 - **bot**: Automated player launched by the referee, attempting to form words at random intervals.
-- **painel** (optional): A Win32 GUI program that displays the current game state, including visible letters, the last successful word, and the scoreboard.
 
 ---
 
@@ -119,8 +118,6 @@ WordsGame/
 │   └── jogoui.c
 ├── bot/
 │   └── bot.c
-├── painel/
-│   └── painel.c (optional)
 ├── util/
 │   └── util.h
 ```
