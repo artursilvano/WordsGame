@@ -1,6 +1,6 @@
-# WordsGame
+# WordGame
 
-WordsGame is a project developed for the Operating Systems 2 (2024/25) course at ISEC-DEIS, Computer Engineering. The objective is to implement a multi-process word identification game, where several players compete by forming valid words from a set of letters that appear on the screen, applying advanced operating system concepts such as inter-process communication, shared memory, and synchronization.
+WordGame is a project developed for the Operating Systems 2 (2024/25) course at ISEC-DEIS, Computer Engineering. The objective is to implement a multi-process word identification game, where several players compete by forming valid words from a set of letters that appear on the screen, applying advanced operating system concepts such as inter-process communication, shared memory, and synchronization.
 
 ## Summary
 
@@ -15,7 +15,7 @@ WordsGame is a project developed for the Operating Systems 2 (2024/25) course at
 
 ## Game Description
 
-In WordsGame, letters are randomly drawn and displayed at fixed intervals. Players (each running in their own console) try to form valid words using the visible letters. Valid words score points and remove the used letters; invalid attempts incur penalties. The game supports up to 20 concurrent players (human or bot) and ends automatically when only one player remains.
+In WordGame, letters are randomly drawn and displayed at fixed intervals. Players (each running in their own console) try to form valid words using the visible letters. Valid words score points and remove the used letters; invalid attempts incur penalties. The game supports up to 20 concurrent players (human or bot) and ends automatically when only one player remains.
 
 The project explores:
 - **Named Pipes** for inter-process communication.
@@ -110,7 +110,7 @@ This project is written in C for Windows. You can build it using Microsoft Visua
 
 **Typical folder structure:**
 ```
-WordsGame/
+WordGame/
 ├── arbitro/
 │   ├── arbitro.c
 │   └── ficheiro.txt
